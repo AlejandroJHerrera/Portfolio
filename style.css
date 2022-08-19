@@ -12,6 +12,7 @@ header {
   width: 100%;
   position: absolute;
   top: 0;
+  margin-left: 10px;
 }
 
 .top_wrapper {
@@ -33,9 +34,10 @@ header {
 }
 
 .logo {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 50px;
   border-radius: 50%;
+  margin-right: 8px;
 }
 
 a {
@@ -67,7 +69,7 @@ main {
   flex-direction: column;
   width: 100%;
   position: absolute;
-  top: 200px;
+  top: 130px;
 }
 
 .splash_screen {
@@ -75,7 +77,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 400px;
+  height: 300px;
 }
 
 .inside_splash_screen {
@@ -116,7 +118,7 @@ main {
   align-items: center;
   width: 90%;
   height: 400px;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 40px;
 }
 .grid_container {
@@ -155,5 +157,50 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
+}
+
+.project_inner {
+  margin-top: 50px;
+}
+
+.project_card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project_card p {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.project_card span {
+  font-size: 2.5em;
+}
+
+.about_me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 276px;
+  margin-top: 150px;
+  width: 90%;
+}
+
+.about_me_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86%;
+}
+
+.about_me_card {
+  width: 50%;
+  text-align: center;
+}
+
+.about_me_card p {
+  font-size: 1.2em;
+  text-align: start;
 }
