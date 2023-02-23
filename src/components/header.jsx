@@ -1,5 +1,4 @@
 import React from 'react';
-import Typical from 'react-typical';
 
 function Header() {
   return (
@@ -12,11 +11,7 @@ function Header() {
       <div className="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto  w-big h-big 2xl:w-bigger 2xl:h-bigger bg-indigo-900 rounded-full -z-30"></div>
       <div className="absolute  top-1/3 left-8 text-xl sm:left-10 sm:text-4xl md:left-40  lg:text-6xl lg:top-1/4 lg:left-20 2xl:left-[600px]">
         <span className="text-gray-600 ">
-          <Typical
-            loop={Infinity}
-            wrapper={'b'}
-            steps={['Front-end', 2000, 'Back-end', 2000, 'Full-stack', 2000]}
-          />
+          <h1>Full stack</h1>
         </span>
         <p className="text-red-500 font-bold">Developer</p>
       </div>
