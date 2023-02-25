@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/about';
 import Contact from './components/contact';
 import Header from './components/header';
 import Navbar from './components/navbar';
@@ -10,6 +11,7 @@ function App() {
     <div className="h-[450px] lg:h-screen bg-gradient-to-t from-indigo-200">
       <Navbar />
       <Header />
+      <About />
       <Tools />
       <Projects />
       <Contact />

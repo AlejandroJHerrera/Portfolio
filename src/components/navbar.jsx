@@ -8,29 +8,42 @@ function Navbar() {
   return (
     <div className="w-full fixed top-0 bg-white z-20">
       <div className="container mx-auto p-5 flex justify-between items-center">
-        <div className="">
+        <div className="cursor-pointer">
           <h1 className="text-2xl font-bold text-indigo-900">
-            Alejandro Herrera
+            <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
+              Alejandro Herrera
+            </Link>
           </h1>
         </div>
         <ul className="hidden md:flex space-x-10 text-gray-600 font-bold text-sm">
-          <li className="hover:text-gray-500">
+          <li className="hover:text-gray-500 cursor-pointer">
             <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
               Home
             </Link>
           </li>
-          <li className="hover:text-gray-500">
+          <li className="hover:text-gray-500 cursor-pointer">
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={70}
+              duration={500}
+            >
+              About me
+            </Link>
+          </li>
+          <li className="hover:text-gray-500 cursor-pointer">
             <Link
               to="projects"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={80}
               duration={500}
             >
               Projects
             </Link>
           </li>
-          <li className="hover:text-gray-500">
+          <li className="hover:text-gray-500 cursor-pointer">
             <Link
               to="contact"
               spy={true}
