@@ -48,8 +48,12 @@ function Projects() {
             <img src="./movieviewerv2.png" alt="projects" />
             <div className="flex justify-between px-4 mt-2">
               <h1>Manga Viewer v2</h1>
-              <a target={'_blank'} href="">
-                Coming soon!
+              <a
+                rel="noreferrer"
+                target={'_blank'}
+                href="https://manga-viewer-v2.onrender.com/"
+              >
+                View
               </a>
             </div>
           </div>
@@ -58,8 +62,12 @@ function Projects() {
             <img src="./mangaviewerv1.png" alt="projects" />
             <div className="flex justify-between px-4 mt-2">
               <h1>Manga Viewer v1</h1>
-              <a target={'_blank'} href="">
-                Coming soon!
+              <a
+                rel="noreferrer"
+                target={'_blank'}
+                href="https://manga-store-v1.onrender.com/"
+              >
+                View
               </a>
             </div>
           </div>
