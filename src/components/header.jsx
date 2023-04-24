@@ -18,8 +18,9 @@ function Header() {
       <div className="hidden lg:flex flex-col gap-5 rounded-lg shadow-xl absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 xl:right-20 2xl:w-1/5 2xl:right-[350px] xl:-top-20">
         <h1 className="text-4xl font-bold text-indigo-800">Hi I'm Alejandro</h1>
         <p className="text-gray-400">
-          I am a junior software developer, recently graduated from my Fullstack
-          Bootcamp. I am looking for my first opportunity in this new field
+          I am a full stack developer specializing in React. I have a passion
+          for creating dynamic and engaging user interfaces that provide an
+          exceptional user experience.
         </p>
         <a
           href="#contact"

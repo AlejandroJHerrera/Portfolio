@@ -44,7 +44,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+          <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
             <img src="./movieviewerv2.png" alt="projects" />
             <div className="flex justify-between px-4 mt-2">
               <h1>Manga Viewer v2</h1>
@@ -58,7 +58,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+          {/* <div className="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
             <img src="./mangaviewerv1.png" alt="projects" />
             <div className="flex justify-between px-4 mt-2">
               <h1>Manga Viewer v1</h1>
